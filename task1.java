@@ -11,12 +11,10 @@ public class task1{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String str= sc.nextLine();
-        System.out.println(str);
         String[] arr=str.split(" ");
         int k= arr.length-1;
         String[]inverseArr=new String[arr.length];
         int i=0;
-        System.out.println(str);
         while(i<arr.length){
             inverseArr[i]=arr[k];
             i++;
